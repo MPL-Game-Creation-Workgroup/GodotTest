@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://duvilwpmrq5x2"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_afbop"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_afbop")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 54.0
+offset_top = 48.0
+offset_right = 194.0
+offset_bottom = 103.0
+text = "Club"

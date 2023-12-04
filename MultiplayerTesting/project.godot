@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[GD-Sync]
+
+protectedMode=false
+publicKey="f3812fa94ff9a9f2"
+privateKey="196b1c554fdfb9d8"
+
+[application]
+
+config/name="MultiplayerTesting"
+config/features=PackedStringArray("4.1", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GDSync="*res://addons/GD-Sync/MultiplayerClient.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GD-Sync/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="mobile"
